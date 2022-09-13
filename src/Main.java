@@ -42,15 +42,27 @@ public class Main {
         d[0]= 1;
         d[1]= 2;
         d[2]= 3;
-        System.out.print(a[0] + "," + a[1] + "," + a[2]);
+        for (int i = 0; i < d.length; i++) {
+            System.out.print(d[i] + ",");
+
+        }
+
         System.out.println();
         double [] y = {1.57 , 7.654 , 9.986};
-        System.out.print(y[0] + "," + y[1] + "," + y[2]);
+        for (int i = 0; i < 3; i++) {
+            System.out.print(y[i] + ",");
+        }
+
         System.out.println();
         char [] h = new char[2];
         h[0]= 2;
         h[1] =3;
-        System.out.print(h[0] + "," + h[1]);
+        for (int i = 0; i < 2; i++) {
+            System.out.print(h[i] + " ,");
+
+        }
+        System.out.println();
+
 
 
         //Массивы задание 3
@@ -64,15 +76,29 @@ public class Main {
         arr[0]= 1;
         arr[1]= 2;
         arr[2]= 3;
-        System.out.print(arr[2] + "," + arr[1] + "," + arr[0]);
+        for (int i = 2; i > -1; i--) {
+            System.out.print(arr[i] + " ,");
+        }
+
         System.out.println();
-        double [] arr1 = {1.57 , 7.654 , 9.986};
-        System.out.print(arr1[2] + "," + arr1[1] + "," + arr1[0]);
+        double [] arr1 = {1.57 , 7.654 , 9.986 };
+        for (int i = 2; i > -1; i--) {
+            System.out.print(arr1[i] + ",");
+
+
+        }
         System.out.println();
+
         char [] arr2 = new char[2];
         arr2[0]= 2;
         arr2[1] =3;
-        System.out.print(arr2[1] + "," + arr2[0]);
+        for (int i = 1; i > -1; i--) {
+            System.out.print( arr2[i] + " ," );
+
+
+        }
+
+        System.out.println();
 
 
         //Массивы Задание 4
