@@ -83,7 +83,9 @@ public class Main {
         System.out.println();
         double [] arr1 = {1.57 , 7.654 , 9.986 };
         for (int i = 2; i > -1; i--) {
-            System.out.print(arr1[i] + ",");
+            System.out.print(arr1[i] + " ,");
+
+
 
 
         }
@@ -107,10 +109,13 @@ public class Main {
         //Распечатайте результат преобразования в консоль.
         System.out.println("Задание 4");
         int [] n = new int[3];
-        n[0]= 1+1;
+        n[0]= 1;
         n[1]= 2;
-        n[2]= 3+1;
+        n[2]= 3;
         for (int i = 0; i < n.length; i++) {
+            if (n[i]%2!=0){
+                n[i]+=1;
+            }
             System.out.println(n[i]);
         }
 
